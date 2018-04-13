@@ -1,0 +1,93 @@
+body{
+  margin: auto;
+  background-color: #1c2c44;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.top{
+  background-color: #2a4860;
+}
+
+.header{
+  background-color: #4f8493;
+  width: 300px;
+  margin: auto;
+}
+
+.result{
+  background-color: white;
+  font-size: 300%;
+}
+
+.input{
+  background-color: #4f8493;
+  margin: auto;
+  width: 320px;
+  border: 3px solid #2a4860;
+  padding: 10px;
+  text-align: center;
+}
+
+input{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+select{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: #0d895a;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 0px;
+}
+
+input[type=reset]{
+  width: 100%;
+  background-color: #5c2d9b;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+  border: 0px;
+}
+
+.input form{
+  font-weight: bold;
+}
+
+select{
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+#log {
+  background-color: white;
+  display: none;
+  margin: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: solid #d6d6d6 2px;
+  font-size: 10px;
+}
+
+.showLogBttn{
+  text-align: center;
+}
+
+#showLogBttn {
+  border: solid #d6d6d6 2px;
+  background-color: white;
+  border-bottom: 0px;
+  font-size: 10px;
+}

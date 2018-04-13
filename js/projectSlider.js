@@ -6,6 +6,11 @@ function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
+function getHeight() {
+  var pictureHeight = document.getElementsByClassName("sliderContainer")
+  document.getElementById("sliderContainer").style.minHeight = pictureHeight[0].clientHeight;
+}
+
 function showDivs(n) {
   var w = document.getElementsByClassName("mySlides");
   var x = document.getElementsByClassName("projectInfo");

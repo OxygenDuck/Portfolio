@@ -1,0 +1,228 @@
+/*Float everything*/
+#team-nav{
+  float: left;
+  width: 15%;
+  height: 100%;
+}
+
+#team-members{
+  float: left;
+  width: 30%;
+  height: 894px;
+  overflow-y: scroll;
+  background-color: #52607d;
+}
+
+#hero-details{
+  float: right;
+  width: 55%;
+  height: 100%;
+  color: #fff;
+  overflow-y: scroll;
+  position: relative;
+}
+
+body{
+  margin: 0;
+  background-color: #08142b;
+}
+
+/* --HEADER-- */
+header {
+  background-color: #152266;
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  position:relative;
+}
+
+header img {
+  height: 100%;
+  display: inline-block;
+}
+
+header h1{
+  display: inline-block;
+  position:absolute;
+  top: -10px;
+  left: 80px;
+  font-family: 'rockwell';
+  color: #fff;
+}
+/* --MAIN PAGE-- */
+
+#mainPage{
+  height: 894px;
+  position: relative;
+}
+
+/* NAVIGATION */
+#navigation {
+  height: 100%;
+  width: 100%;
+  background-color: #76aebd;
+}
+
+#navigation h2{
+  margin: 0;
+  margin-left: 15px;
+  font-family: "Impact";
+  font-size: 25px;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  background-color: #2a5f8b;
+  border: 1px solid #082888;
+  border-radius: 3px;
+  width: 200px;
+}
+
+li :hover {
+  color: #fff;
+}
+
+li a {
+  color: #000;
+  font-size: 17px;
+}
+
+#content {
+  display: inline-block;
+  color: #fff;
+}
+
+/* Hero Cards */
+
+.heroCard {
+  width: 530px;
+  overflow: hidden;
+  background: url("../Media/Images/background.png") 20%;
+  height: 308px;
+  margin-left: 2%;
+  margin-top: 2%;
+  border: 2px solid #000;
+  position: relative;
+}
+
+#oddCard {
+  background: url("../Media/Images/background2.png") 20%;
+}
+
+.cardImg {
+  display: inline-block;
+  width: 190px;
+  height: 100%;
+}
+
+.cardText {
+  position:absolute;
+  top: 5px;
+  left: 37%;
+}
+
+.heroLink {
+  color: #fff;
+  padding: 3px;
+  background-color: #0d4573;
+  border: 3px solid #081e62;
+  border-radius: 8px;
+}
+
+/*hero details*/
+#bannerContainer {
+  height: 35vh;
+  overflow: hidden;
+}
+
+#banner {
+  width: 100%;
+  opacity: 0.5;
+}
+
+#mugshot {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 120px;
+  left: 19.5vw
+}
+
+#mugshot img{
+  width: 100%;
+}
+
+#heroName {
+  margin-top: 10%;
+  margin-bottom: 5px;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Impact";
+}
+
+#heroDesc {
+  text-align: center;
+  font-size: 20px;
+}
+
+#hero-details h2 {
+  margin-left: 10px;
+  font-family: "Impact";
+  font-size: 30px;
+}
+
+#hero-details li {
+  list-style: none;
+}
+
+#hero-details p {
+  margin-left: 10px;
+}
+
+#textfield {
+  width: 97.7%;
+  height: 60px;
+  margin: 0 10px;
+  background-color: #2f5d7e;
+  border: 2px solid #2b447c;
+}
+
+#submitRating {
+  margin-left: 10px;
+  width: 98.1%;
+  background-color: #214863;
+  border: 2px solid #1b2e5b;
+  color: #fff;
+}
+
+.comment {
+  margin-left: inherit;
+  width: 96.8%;
+  padding: 5px;
+  background-color: #2f5d7e;
+  border: 2px solid #2b447c;
+  border-radius: 3px;
+}
+
+/*--NO MORE HEROES--*/
+
+#noHeroPage {
+  text-align: center;
+  font-size: 45px;
+}
+
+#mainPageLogo {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 120px;
+  left: 19.5vw
+}

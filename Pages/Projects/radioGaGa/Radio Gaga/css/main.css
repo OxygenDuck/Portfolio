@@ -1,0 +1,211 @@
+body{
+  background: url('../Media/Images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: #fff;
+}
+
+#header {
+  height: 70px;
+  background: #000;
+  margin: 0px;
+}
+
+#logo a{
+  font-size: 37px;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 13px;
+  margin-left: 70px;
+  display: inline;
+  float: left;
+}
+
+#logo a:hover{
+  text-shadow: 3px 3px #666666;
+}
+
+#main_nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 70px;
+}
+
+#main_nav li {
+  display: inline;
+  float: right;
+  background-color: #D2474D;
+  margin: 5px;
+  font-size: 30px;
+  border: solid 5px #fff;
+  border-radius: 5px;
+}
+
+#main_nav li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 45px;
+  text-decoration: none;
+  padding-top: 7px;
+}
+
+#main_nav li a:hover {
+  background-color: #a80640;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+.content h2 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.content a {
+  background-color: #D2474D;
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.content a:hover {
+  background-color: #a80640;
+}
+
+.collection {
+  background-color: rgba(150, 150, 150, 0.10);
+  width: 1010px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.collection h1 {
+  margin-bottom: 0;
+}
+
+.collection h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.collection h3 {
+  font-size: 10px;
+  margin: 0;
+}
+
+video {
+  margin-top: 20px;
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+video:hover {
+  border: 2px solid #fff;
+}
+
+
+#albums {
+  width: 350px;
+  float: left;
+}
+
+#albums ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#albums img {
+  height: 300px;
+  width: 300px;
+    border: solid #000 2px;
+}
+
+#albums img:hover{
+  border: solid #fff 2px;
+}
+
+#media {
+  background-color: #191f2f;
+  float: right;
+  padding: 10px;
+  width: 630px;
+  border: 2px solid #000;
+}
+
+#clearfix {
+  clear: both;
+}
+
+table{
+  width: 100%;
+  margin: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+audio{
+  width: 100%;
+  border: 2px solid #000;
+}
+
+audio:hover{
+  border: 2px solid #fff;
+}
+
+th {
+  background-color: #555555;
+}
+
+td {
+  background-color: #777777;
+}
+
+.phpHide {
+  display: none;
+}
+
+img{
+  height: 5%;
+}
+
+#download0:hover{
+  -webkit-filter: invert(100%);
+}
+
+#download1:hover{
+  -webkit-filter: invert(100%);
+}
+
+#download2:hover{
+  -webkit-filter: invert(100%);
+}
+
+.playBttn {
+  display: inline-block;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.playBttn:hover {
+  border: 2px solid #5469a7;
+  background-color: #5469a7;
+}

@@ -1,7 +1,135 @@
+body {
+  background-color: #70BEFF;
+}
+
+.externalLink {
+  margin-top: 1vh;
+  margin-bottom 1vh;
+  text-align: center;
+  color: #fff;
+  background-color: #B27719;
+  border-radius: 8px;
+  padding: 1%;
+  transition: 0.2s;
+}
+
+.externalLink:hover {
+  color: #fff;
+  background-color: #FEAA24;
+}
+
+/*Notification*/
+.notificationCard {
+  margin-bottom: 3px;
+}
+
+/*Header*/
 #header {
-  background-color: #9dc5e7;
+  padding: 2vw;
+  background-color: #57b2ff;
+}
+
+/*Main Page*/
+#mainContainer {
+  background-color: rgba(255, 255, 255, 0.55);
+  padding: 1vw;
+}
+
+.bandedRow {
+  background-color:rgba(43, 116, 179, 0.2);
+  margin-top: 0.3%;
+  margin-bottom: 0.3%;
+}
+
+/*About Page*/
+#profileCard {
+  border: none;
+  background-color: transparent;
+}
+
+#photo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#cardBodyText {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#resumeJumbotron {
+  background-color: #FFBE57;
+}
+
+#myResume {
+  text-align: center;
+}
+
+#documentPicture {
+  height: 87px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resumeLink {
+  font-size: 130%;
+  display: block;
+  margin-top: 50px;
+}
+
+/*Projects*/
+#sliderContainer {
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderButton {
+  border: none;
+  background-color: rgba(129, 127, 127, 0.5);
+  height: 100%;
+  width: 10%;
+  transition: 0.2s;
+}
+
+.sliderButton:focus {
+    outline: none;
+}
+
+.sliderButton:hover {
+  background-color: rgba(181, 181, 181, 0.5);
+}
+
+#sliderLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sliderRight {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .mySlides {
-  width: 65%;
+  width: 100%;
+}
+
+.projectLink {
+  background-color: #5A98CC;
+}
+
+.projectLink:hover {
+  background-color: #a2c4df;
+}
+
+#pictures {
+  margin-bottom: 0.5%;
+}
+
+/*Contact*/
+.contactPage {
+  background-color: #fff;
 }

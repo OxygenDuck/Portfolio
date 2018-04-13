@@ -5,19 +5,24 @@
     <title>Portfolio - Peter Janssen</title>
     <!--Bootstrap & CSS-->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
-    <div class="container">
 
     <!--Header-->
-    <div class="jumbotron" id="header">
-      <h1 class="display-4">Peter Janssen</h4>
+    <header id="header">
+      <h1 class="display-4">Peter Janssen</h1>
+      <hr id="headerLine">
       <p>On this website you can find information about Peter Janssen, a seventeen year old IT Student at ROC ter AA. This portfolio will mostly go in dept about his Web-Development progress.</p>
-    </div>
+    </header>
+
+    <!--Main Body Container-->
+    <div class="container-fluid" id="mainContainer">
 
     <!--Includes-->
-    <?php include "Pages/about.html";
+    <?php include "Pages/notification.php";
+          include "Pages/about.html";
           include "Pages/Projects/index.php";
           include "Pages/contact.php";?>
 

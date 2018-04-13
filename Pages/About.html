@@ -3,24 +3,25 @@
   <div class="col-md-8">
     <h2>About Me</h2>
     <h4>Introduction</h4>
-    <p>My name is Peter Janssen.
-       I am a IT student at ROC ter AA in the Dutch city of Helmond.
-       To be more specific, I am following the Application Programming curriculum, which includes computer programming, web development and industrial automation/embedded systems.</p>
+    <p>My name is Peter Janssen. I am a IT student at ROC ter AA in the Dutch city of Helmond. To be more specific, I am following the Application Programming curriculum, which includes computer programming, web development and industrial automation/embedded
+      systems.</p>
     <h4>Hobbies and Interests</h4>
     <p>Even outside of my education I like to work with computers a lot. I especially like surfing the web, making my own projects and playing videogames.</p>
   </div>
-  <div class="col-md">
-    <img src="Media/Img/Photo.png" alt="Peter">
+  <div class="d-sm-none d-md-block col-md-2 card" id="profileCard">
+    <img class="card-img-top" id="photo" src="Media/Img/Photo.jpg" alt="Peter">
+    <div class="card-body" id="cardBodyText">
+      <p class="card-text">Peter Janssen</p>
+    </div>
   </div>
 </div>
 
 <!--Relevant Skills-->
-<div class="row">
+<div class="row bandedRow">
   <div class="col">
     <h2>Relevant Skills</h2>
-    <p>When it comes to my education, I have to work with programming.
-      I am somewhat proficient with C-based languages such as C#. I also have moderate experience with JavaScript, PHP (and HTML of course).
-      I have also worked with the programming methods provided by CoDeSys when it comes to Industrial Automation.</p>
+    <p>When it comes to my education, I have to work with programming. I am somewhat proficient with C-based languages such as C#. I also have moderate experience with JavaScript, PHP (and HTML of course). I have also worked with the programming methods
+      provided by CoDeSys when it comes to Industrial Automation.</p>
   </div>
 </div>
 
@@ -28,11 +29,8 @@
 <div class="row">
   <div class="col">
     <h2>Education</h2>
-    <p>The Dutch curriculum for “Application Programming” learns its students to work with C-based coding languages for applications,
-       includes HTML, PHP, CSS, JavaScript and others as part of Web-Development,
-       and learns them multiple different ways to work with Embedded Systems and Industrial Automation.
-       On top of that students also learn how to work in an IT Business, Gaining experience and certificates in Microsoft Office programs, Networking,
-       How computers are built and work and Data basing.</p>
+    <p>The Dutch curriculum for “Application Programming” learns its students to work with C-based coding languages for applications, includes HTML, PHP, CSS, JavaScript and others as part of Web-Development, and learns them multiple different ways to work
+      with Embedded Systems and Industrial Automation. On top of that students also learn how to work in an IT Business, Gaining experience and certificates in Microsoft Office programs, Networking, How computers are built and work and Data basing.</p>
   </div>
   <div class="col">
     <h4>Certificates</h4>
@@ -45,9 +43,12 @@
 </div>
 
 <!--Resume-->
-<div class="row">
-  <div class="col">
-    <h2>My Resume</h2>
-    <a href="Media/External/Resume.pdf" target="_blank">Download my resume!</a>
+<div class="row" id="resumeJumbotron">
+  <div class="col-6 jumbotronCol">
+    <h1 id="myResume">My Resume</h1>
+    <img id="documentPicture" src="Media/Img/document.png" alt="document icon">
+  </div>
+  <div class="col jumbotronCol">
+    <a class="externalLink" id="resumeLink" href="Media/External/Resume.pdf" target="_blank">Download my resume!</a>
   </div>
 </div>
